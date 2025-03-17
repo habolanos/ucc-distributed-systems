@@ -1,0 +1,1 @@
+INSERT INTO public.auth_user (id, "password", last_login, is_superuser, username, first_name, last_name, email, is_staff, is_active, date_joined) VALUES(2, 'pbkdf2_sha256$600000$GjHllHUOGncUCgxMmCruUj$W9h3LjhdndrwXvUINoAxBTzkdPVcjywB0joPlXXyteo=', NULL, true, 'madelem2', 'Madelem', 'Chico Velasco', 'madelenchicovelasco@gmail.com', false, true, '2024-11-16 12:57:04.059');

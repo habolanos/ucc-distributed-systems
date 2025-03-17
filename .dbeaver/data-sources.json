@@ -19,8 +19,7 @@
 					"@dbeaver-sid-service@": "SERVICE"
 				},
 				"auth-model": "oracle_native"
-			},
-			"filters": []
+			}
 		},
 		"postgres-jdbc-192d0012b35-10a727a67355fae9": {
 			"provider": "postgresql",
@@ -42,6 +41,28 @@
 				},
 				"auth-model": "native"
 			}
+		},
+		"postgres-jdbc-19335ee088d-711d3adba18b884d": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "futbol-app",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"configurationType": "MANUAL",
+				"home": "postgresql_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "true",
+					"@dbeaver-chosen-role@": ""
+				},
+				"auth-model": "native"
+			},
+			"filters": []
 		}
 	},
 	"connection-types": {
